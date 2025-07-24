@@ -190,7 +190,7 @@ select pa.patient_id,concat(pa.patient_id,length(pa.last_name),year(pa.birth_dat
 inner join admissionss as ad on pa.patient_id = ad.patient_id group by pa.patient_id,pa.first_name,pa.last_name;
 ```
 
-###27. Show province_id(s) where the total sum of the patients' height is greater than or equal to 7,000. Display the sum of heights for each matching province.
+### 27. Show province_id(s) where the total sum of the patients' height is greater than or equal to 7,000. Display the sum of heights for each matching province.
 ```sql
 SELECT province_id,SUM(height) AS total_height
 FROM patientss GROUP BY province_id HAVING SUM(height) >= 7000;
