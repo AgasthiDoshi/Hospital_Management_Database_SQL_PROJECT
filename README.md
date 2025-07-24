@@ -52,7 +52,7 @@ CREATE TABLE doctors
     speciality text
 );
 ```
-##Problems and Solutions
+## Problems and Solutions
 ### 1. Show first name, last name, and gender of patientss whose gender is 'M'
 ```sql
 select first_name,last_name,gender from patientss where gender = "M";
