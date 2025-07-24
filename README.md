@@ -196,13 +196,20 @@ SELECT province_id,SUM(height) AS total_height
 FROM patientss GROUP BY province_id HAVING SUM(height) >= 7000;
 ```
 ## Key Findings
-- ✅ The dataset includes 200+ patients with varied demographics such as gender, city, province, and medical allergies.
-- 📈 Gender-wise analysis revealed a fairly balanced distribution, allowing comparative health studies.
-- 🎂 Patients span a wide age range, from infants to elderly, enabling age-based healthcare analysis.
-- ⚕️ Peanuts, Furosemide, and Dextromethorphan were among the most frequently occurring allergies or treatments.
-- 🌍 The province-wise spread of patients highlighted regional clusters with potential for targeted medical resource allocation.
-- 📉 Several patients had abnormal height and weight combinations, signaling outliers or potential health risks for further investigation.
-- 🔍 The structured data model supports advanced queries like filtering patients by allergy type, age group, or geographic location — helping simulate real-world hospital queries.
+- Diverse patient demographics across cities and provinces enable meaningful regional health analysis.
+- Common allergies include Peanuts, Furosemide, and Dextromethorphan — useful for preventive care insights.
+- Age and gender distributions support targeted medical research and care strategies.
+- Several patients show unusual height-weight profiles, indicating potential health risks.
+- The structured schema enables advanced SQL queries and BI tool integration for real-time analytics.
+- The structured data model supports advanced queries like filtering patients by allergy type, age group, or geographic location — helping simulate real-world hospital queries.
 
 ## Conclusion
-This SQL project successfully demonstrates the creation and use of a relational patient database that mirrors real-world medical record systems. It allows for in-depth analysis of patient demographics, health risks, and geographical patterns — making it a valuable tool for doctors, healthcare analysts, and medical institutions.
+This project demonstrates the power of SQL in building a scalable patient management system. It equips healthcare professionals with data-driven insights for improved diagnosis, planning, and decision-making — forming a strong base for future expansion into full-fledged healthcare solutions.
+
+## Author
+### Agasthi Doshi
+### 📧 doshiagasthi@gmail.com
+### 📱 +91-7400345300
+### 🌐 LinkedIn www.linkedin.com/in/agasthi-doshi-40b555375
+
+# Thank You. I hope you like this project.
