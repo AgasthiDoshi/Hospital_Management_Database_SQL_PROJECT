@@ -195,3 +195,14 @@ inner join admissionss as ad on pa.patient_id = ad.patient_id group by pa.patien
 SELECT province_id,SUM(height) AS total_height
 FROM patientss GROUP BY province_id HAVING SUM(height) >= 7000;
 ```
+## Key Findings
+- ✅ The dataset includes 200+ patients with varied demographics such as gender, city, province, and medical allergies.
+- 📈 Gender-wise analysis revealed a fairly balanced distribution, allowing comparative health studies.
+- 🎂 Patients span a wide age range, from infants to elderly, enabling age-based healthcare analysis.
+- ⚕️ Peanuts, Furosemide, and Dextromethorphan were among the most frequently occurring allergies or treatments.
+- 🌍 The province-wise spread of patients highlighted regional clusters with potential for targeted medical resource allocation.
+- 📉 Several patients had abnormal height and weight combinations, signaling outliers or potential health risks for further investigation.
+- 🔍 The structured data model supports advanced queries like filtering patients by allergy type, age group, or geographic location — helping simulate real-world hospital queries.
+
+## Conclusion
+This SQL project successfully demonstrates the creation and use of a relational patient database that mirrors real-world medical record systems. It allows for in-depth analysis of patient demographics, health risks, and geographical patterns — making it a valuable tool for doctors, healthcare analysts, and medical institutions.
